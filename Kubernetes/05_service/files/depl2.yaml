@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: apache
-        image: ubuntu/apache2
+        image: ubuntu/apache2:2.4-22.04_beta
         ports:
         - containerPort: 80
